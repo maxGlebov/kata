@@ -25,7 +25,8 @@ public class Main {
                 throw new IOException();
             } catch (IOException e) {
                 System.out.println("throws Exception //т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
-                System.exit(0);
+                System.exit(0
+                );
             }
         }
         int countNumeric = 0;                                   //находим количесво арабских цифр
@@ -70,7 +71,7 @@ public class Main {
             default:
                 break;
         }
-        //return "gg";
+
 
         if (countNumeric == 0)
             return convertToRoman(result);
