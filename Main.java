@@ -110,7 +110,7 @@ public class Main {
     }
 
     static String convertToRoman(int num) {
-        if (num < 0) {
+        if (num < 1) {
             try {
                 throw new IOException();
             } catch (IOException e) {
